@@ -20,7 +20,7 @@ def rotate_list_right(data, amount):
 
       result.append(following_numbers[index])
 
-   for index in range(1, len(previous_numbers)):
+   for index in range(0, len(previous_numbers)):
       result.append(previous_numbers[index])
    
    return result
